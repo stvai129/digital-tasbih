@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textviewdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="0"
+        android:textSize="100dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="add one"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/demotadebutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="demote one"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/resetbutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="reset all"
+        android:textSize="30dp"
+        />
+
+
+</LinearLayout>
+
